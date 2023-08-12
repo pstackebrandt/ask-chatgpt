@@ -8,7 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pstackebrandt/ask-chatgpt.git"},
+    "url": "git+https://github.com/pstackebrandt/ask-chatgpt.git"
+  },
   "keywords": [
     "ai",
     "chatgpt",
@@ -17,5 +18,8 @@
     "ask"
   ],
   "author": "Peter Stackebrandt",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
 }
