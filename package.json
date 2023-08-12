@@ -1,0 +1,21 @@
+{
+  "name": "ask-chatgpt",
+  "version": "1.0.0",
+  "description": "ask chatgpt to evaluate a word from a quiz game",
+  "main": "ask-chatgpt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pstackebrandt/ask-chatgpt.git"},
+  "keywords": [
+    "ai",
+    "chatgpt",
+    "word",
+    "wordsworm",
+    "ask"
+  ],
+  "author": "Peter Stackebrandt",
+  "license": "ISC"
+}
