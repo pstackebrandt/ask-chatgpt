@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "ask chatgpt to evaluate a word from a quiz game",
   "main": "ask-chatgpt.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
