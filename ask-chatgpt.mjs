@@ -1,7 +1,11 @@
-const axios = require('axios');
+// file name: ask-chatgpt.mjs
 
+import { config } from 'dotenv';
+config({ path: './.env.local' });
+
+const axios = require('axios');
 const OPENAI_API_ENDPOINT = 'https://api.openai.com/v1/engines/davinci/completions';
-const OPENAI_API_KEY = 'IHR_API_SCHLÜSSEL'; // Ersetzen Sie 'IHR_API_SCHLÜSSEL' durch Ihren echten API-Schlüssel.
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
 async function getCompletion(promptText) {
     try {
